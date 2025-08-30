@@ -1,25 +1,27 @@
 This project is a web application built with Flask that predicts stock closing prices utilizing LSTM (Long Short-Term Memory) neural networks. It allows users to input a company code, which fetches historical stock data from a corresponding CSV file, visualizes trends, and provides predicted future values using deep learning techniques.
 
-Features
-Interactive web interface for stock prediction.
+Features:
 
-Input a stock's company code to analyze its historical prices.
+- Interactive web interface for stock prediction.
 
-Data visualization: closing price, sales volume, and moving averages.
+- Input a stock's company code to analyze its historical prices.
 
-LSTM model training and prediction on the fly.
+- Data visualization: closing price, sales volume, and moving averages.
 
-Comparison of actual and predicted values.
+- LSTM model training and prediction on the fly.
 
-Results presented with interactive plots and tables.
+- Comparison of actual and predicted values.
 
-Technologies Used
-Python (Flask, Pandas, NumPy)
+- Results presented with interactive plots and tables.
 
-Matplotlib for visualizations
+Technologies Used:
 
-scikit-learn for data preprocessing
+- Python (Flask, Pandas, NumPy)
 
-Keras with TensorFlow backend for deep learning (LSTM)
+- Matplotlib for visualizations
 
-HTML templates for the web interface
+- scikit-learn for data preprocessing
+
+- Keras with TensorFlow backend for deep learning (LSTM)
+
+- HTML templates for the web interface
